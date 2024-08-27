@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- -----------------icon link------------------------------ -->
+    <script src="https://kit.fontawesome.com/4bb803d7a9.js" crossorigin="anonymous"></script>
+    <!--------------------------- Include Typed.js library----------------------->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <header>
+                <nav>
+                    <img src="/images/sanjivani-high-resolution-logo-transparent (1).png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+            </header>
+            <section class="home" id="home">
+
+                <!-- <div class="home" id="home"> -->
+                <div class="header_text">
+                    <h3>hi, Myself</h3>
+                    <h1>Sanjivani Patil</h1>
+                    <h3>And I'am a <span class="multiple-text"> Full-Stack Developer</span></h3>
+                    <p>Versatile Full Stack Developer with expertise in buildin responsive web applications,
+                        integrating back-end systems,and optimizing performance across diverse platforms.My
+                        expertise lies in HTML, CSS, and JavaScript, ensuring responsive design and seamless user
+                        experiences. I specialize in bringing designs to life with precision and creativity.I build
+                        robust and scalable server-side applications. My skills in databases, APIs, and server
+                        management allow me to create efficient and secure back-end systems "
+                    </p>
+
+                    <div class="social-medias">
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="home-img">
+                    <img src="/images/my image1.jpg" alt="#">
+                </div>
+                <!-- </div> -->
+        </div>
+    </div>
+    </section>
+    <!-- -----------------------------------------About---------------------------------------------- -->
+    <section>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about_col1">
+                        <img src="/images/my image.jfif" alt="">
+                    </div>
+                    <div class="about_col2">
+                        <h2 class="sub_title">About Me</h2>
+                        <p>
+                        <p>"Hi, I'm Sanjivani Patil From Mumbai<br><br> A passionate and aspiring Full-Stack
+                            developer.<br> I
+                            completed my BSc-IT and MSc-IT education from Mumbai University with a great CGPA.<br><br>
+                            I have a strong foundation in HTML, CSS, and JavaScript. I am dedicated to creating visually
+                            appealing and user-friendly websites.<br><br> Though I'm just starting out, I am constantly
+                            learning
+                            and excited to bring fresh ideas to life.<br> My goal is to grow as a developer, contribute
+                            to
+                            impactful projects, and continuously improve my skills in web development."</p>
+                        </p>
+                    </div>
+                </div>
+                <div class="about_col3">
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certification')">Certification</p>
+                    </div>
+
+
+                    <div class="tab-contents active-tab" id="skills">
+
+                        <h3>HTML <i style="color: orangered" class="fa-brands fa-html5"></i></h3>
+                        <div class="progress-bar">
+                            <div class="html"><span>90%</span></div>
+                        </div>
+
+                        <h3>CSS <i style="color:#147bbc" class="fa-brands fa-css3"></i></h3>
+                        <div class="progress-bar">
+                            <div class="CSS"><span>80%</span></div>
+                        </div>
+
+                        <h3>JavaScript <i style="color:yellow" class="fa-brands fa-js"></i></h3>
+                        <div class="progress-bar">
+                            <div class="JavaScript"><span>60%</span></div>
+                        </div>
+
+                        <h3>Python <i style="color:#ee072e" class="fa-brands fa-python"></i></h3>
+                        <div class="progress-bar">
+                            <div class="python"><span>60%</span></div>
+                        </div>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br><i class=" fa-user-graduate"></i> MSc-IT from Mumbai
+                                University</li>
+                            <li><span>2021</span><br><i class="fa-solid fa-user-graduate"></i> Bsc-IT from Mumbai
+                                University</li>
+                            <li><span>2018</span><br><i class="fa-solid fa-school"> </i> HSC from Maharashtra
+                                Board-Pune</li>
+                            <li><span>2016</span><br><i class="fa-solid fa-school"></i> SSC from Maharashtra
+                                Board-Pune</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certification">
+                        <ul>
+                            <li><span>2024</span><br><i class="fa-solid fa-certificate"></i> Full Stack Developer
+                            </li>
+                            <li><span>2023</span><br><i class="fa-solid fa-certificate"></i> Certification in Python
+                                Basic</li>
+                            <li><span>2023</span><br><i class="fa-solid fa-certificate"></i> Certification in SQL
+                            </li>
+                            <li><span>2021</span> <br><i class="fa-solid fa-certificate"></i> Certification in
+                                Photoshop</li>
+                            <li><span>2021</span><br><i class="fa-solid fa-certificate"></i> Certification in Life
+                                Skills</li>
+                            <li><span>2017</span><br><i class="fa-solid fa-certificate"></i> Certification in CCC
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- --------------------------------------------------Portfolio-------------------------------------- -->
+    <section>
+        <div id="portfolio">
+            <div class="container">
+                <h2 class="sub_title">My Work</h2>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="/images/work img 1.png">
+                        <div class="layer">
+                            <h3>E-commers website</h3>
+                            <p>t's a comprehensive online platform where users can purchase a wide variety of products,
+                                from
+                                electronics and clothing to books and groceries.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="/images/work img2.png">
+                        <div class="layer">
+                            <h3>Performance Monitoring System</h3>
+                            <p>Monitor your system performance with automated tools. Gain performance monitoring in real
+                                time and with customized alerts and reports.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="/images/work img 3.jpg">
+                        <div class="layer">
+                            <h3>Mobile App</h3>
+                            <p>A mobile game is a video game that is typically played on a mobile phone. The term also
+                                refers to all games that are played on any portable device.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+    </section>
+    <!-------------------------------------- Services-------------------------- -->
+
+    <section>
+        <div id="services">
+            <div class="container">
+                <h2 class="sub_title">My Services</h2>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Designing and implementing the website which includes the analysis, design, development and
+                            maintenance.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <h2>App Development</h2>
+                        <p>Creating software applications for mobile devices like smartphones and tablets.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-image"></i>
+                        <h2>Photoshop</h2>
+                        <p>Editing or retouching images using Adobe Photoshop to create high-quality images for
+                            websites,
+                            social media, blogs, or personal use.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-image"></i>
+                        <h2>Frontend Development</h2>
+                        <p>As a front-end developer creates websites and applications using web languages such as HTML,
+                            CSS,
+                            and JavaScript.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ----------------Contact ------------------------------->
+    <section>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact">
+                        <h1 class="sub-title1">Contact Me</h1>
+                        <P><i class="fa-solid fa-envelope"></i>sanjivanisd01@gmail.com</P>
+                        <p><i class="fa-brands fa-square-whatsapp"></i>+91 9326952947</p>
+                        <div class="social-icon">
+                            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="/images/Sanjivani Patil Resume - Google Docs.pdf" download class="btn btn2">Download
+                            CV</a>
+                    </div>
+                    <div class="form">
+                        <form action="https://formspree.io/f/mrbzjbgq" method="post">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="text" name="email" placeholder="Your Email" required>
+                            <textarea name="Massage" rows="6" placeholder="Your Massage"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ------------------------------Copyright------------------- -->
+    <section>
+        <footer class="footer">
+            <div class="copyright">
+                <p> <i class="fa-regular fa-copyright"></i>2024 copyright by @Sanivani.</p>
+            </div>
+            <!-- tip icon -->
+            <div class="top-icon">
+                <a href="#"><i class="fa-solid fa-angle-up"></i></a>
+            </div>
+        </footer>
+    </section>
+    <!--------------------------------------javascript file----------------------------->
+    <!-- <script src="project.js"></script>  -->
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <!-- -------Side menu--------------- -->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <!-- -----------------------home text --------------------------- -->
+
+    <script>
+        const typed = new Typed('.multiple-text', {
+            strings: ['Full-Stack Developer', 'Frontend Developer', 'Backend Developer'],
+            typeSpeed: 60,
+            backSpeed: 60,
+            backDelay: 1000,
+            loop: true
+        });
+    </script>
+
+</body>
+
+
+</html>
