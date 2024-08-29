@@ -168,8 +168,8 @@ span {
 /* ----------------------------------------------about---------------------------------------- */
 
 #about {
-    padding: 80px 0;
 
+    padding-top: 30%;
 }
 
 .row {
@@ -699,12 +699,12 @@ nav .fa-solid {
 
 
 @media screen and (max-width: 600px) {
-    
+
     .home {
         flex-direction: column;
         align-items: center;
         gap: 2px;
-    
+
     }
 
     .home-img {
@@ -724,7 +724,7 @@ nav .fa-solid {
         align-items: center;
         text-align: center;
         margin-top: 1px;
-    
+
     }
 
     .header_text h1 {
@@ -752,13 +752,12 @@ nav .fa-solid {
     .row {
         flex-direction: column;
         align-items: center;
-        /* margin-top: 50%; */
+       
     }
 
     .about_col1 {
         order: 2;
-        flex-basis: 100%;
-        /* margin-top: 100%; */
+        flex-basis: 100%;;
     }
 
     .about_col1 img {
@@ -767,11 +766,11 @@ nav .fa-solid {
 
     .about_col2 {
         order: 1;
-        /* Text will appear first */
         flex-basis: 100%;
         text-align: center;
-        
-        
+        padding-top: 120%;
+
+
     }
 
     .sub_title {
