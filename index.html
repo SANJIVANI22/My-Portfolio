@@ -21,8 +21,8 @@
                     <ul id="sidemenu">
                         <li><a href="#header">Home</a></li>
                         <li><a href="#about">About</a></li>
-                        <li><a href="#services">Services</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#services">Services</a></li>
                         <li><a href="#contact">Contact</a></li>
                         <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
                     </ul>
@@ -30,18 +30,12 @@
                 </nav>
             </header>
             <section class="home" id="home">
-
-                <!-- <div class="home" id="home"> -->
                 <div class="header_text">
                     <h3>hi, Myself</h3>
                     <h1>Sanjivani Patil</h1>
                     <h3>And I'am a <span class="multiple-text"> Full-Stack Developer</span></h3>
-                    <p>Versatile Full Stack Developer with expertise in buildin responsive web applications,
-                        integrating back-end systems,and optimizing performance across diverse platforms.My
-                        expertise lies in HTML, CSS, and JavaScript, ensuring responsive design and seamless user
-                        experiences. I specialize in bringing designs to life with precision and creativity.I build
-                        robust and scalable server-side applications. My skills in databases, APIs, and server
-                        management allow me to create efficient and secure back-end systems "
+                    <p>Passionate Full Stack Developer with expertise in crafting seamless web solutions from front-end
+                        design to back-end functionality.
                     </p>
 
                     <div class="social-medias">
@@ -54,11 +48,12 @@
                 <div class="home-img">
                     <img src="/images/my image1.jpg" alt="#">
                 </div>
-                <!-- </div> -->
         </div>
+    </div>
     </div>
     </section>
     <!-- -----------------------------------------About---------------------------------------------- -->
+
     <section>
         <div id="about">
             <div class="container">
@@ -67,31 +62,21 @@
                         <img src="/images/my image.jfif" alt="">
                     </div>
                     <div class="about_col2">
-                        <h2 class="sub_title">About Me</h2>
-                        <p>
-                        <p>"Hi, I'm Sanjivani Patil From Mumbai<br><br> A passionate and aspiring Full-Stack
-                            developer.<br> I
-                            completed my BSc-IT and MSc-IT education from Mumbai University with a great CGPA.<br><br>
+                        <h2 class="sub_title2">About Me</h2>
+                        <p><br>Hi, I'm Sanjivani Patil from Mumbai<br><br>
+                            A passionate and aspiring Full-Stack developer.<br> I completed my BSc-IT and MSc-IT
+                            education from Mumbai University with a great CGPA.<br><br>
                             I have a strong foundation in HTML, CSS, and JavaScript. I am dedicated to creating visually
-                            appealing and user-friendly websites.<br><br> Though I'm just starting out, I am constantly
-                            learning
-                            and excited to bring fresh ideas to life.<br> My goal is to grow as a developer, contribute
-                            to
-                            impactful projects, and continuously improve my skills in web development."</p>
-                        </p>
+                            appealing and user-friendly websites.<br><br>
+                            My goal is to grow as a developer, contribute to impactful projects, and continuously
+                            improve my skills in web development.</p>
                     </div>
                 </div>
-                <div class="about_col3">
-
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
-                        <p class="tab-links" onclick="opentab('certification')">Certification</p>
-                    </div>
 
 
+                <div class="skills-education">
                     <div class="tab-contents active-tab" id="skills">
-
+                        <h2>Skills</h2>
                         <h3>HTML <i style="color: orangered" class="fa-brands fa-html5"></i></h3>
                         <div class="progress-bar">
                             <div class="html"><span>90%</span></div>
@@ -109,46 +94,47 @@
 
                         <h3>Python <i style="color:#ee072e" class="fa-brands fa-python"></i></h3>
                         <div class="progress-bar">
-                            <div class="python"><span>60%</span></div>
+                            <div class="python"><span>50%</span></div>
                         </div>
                     </div>
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span>2023</span><br><i class=" fa-user-graduate"></i> MSc-IT from Mumbai
-                                University</li>
-                            <li><span>2021</span><br><i class="fa-solid fa-user-graduate"></i> Bsc-IT from Mumbai
-                                University</li>
-                            <li><span>2018</span><br><i class="fa-solid fa-school"> </i> HSC from Maharashtra
-                                Board-Pune</li>
-                            <li><span>2016</span><br><i class="fa-solid fa-school"></i> SSC from Maharashtra
-                                Board-Pune</li>
 
+                    <div class="tab-contents active-tab" id="education">
+                        <h2>Education</h2>
+                        <ul>
+                            <li><span>2023</span><br><i class="fa-solid fa-graduation-cap"></i> MSc-IT from Mumbai
+                                University</li>
+                            <li><span>2021</span><br><i class="fa-solid fa-graduation-cap"></i> BSc-IT from Mumbai
+                                University</li>
+                            <li><span>2018</span><br><i class="fa-solid fa-school"> </i> HSC from Maharashtra Board-Pune
+                            </li>
+                            <li><span>2016</span><br><i class="fa-solid fa-school"></i> SSC from Maharashtra Board-Pune
+                            </li>
                         </ul>
                     </div>
+
+
+                    <button id="toggleButton" class="toggle-btn">Show Certifications</button>
+
+
                     <div class="tab-contents" id="certification">
+                        <h2>Certifications</h2>
                         <ul>
-                            <li><span>2024</span><br><i class="fa-solid fa-certificate"></i> Full Stack Developer
-                            </li>
+                            <li><span>2024</span><br><i class="fa-solid fa-certificate"></i> Full Stack Developer</li>
                             <li><span>2023</span><br><i class="fa-solid fa-certificate"></i> Certification in Python
                                 Basic</li>
-                            <li><span>2023</span><br><i class="fa-solid fa-certificate"></i> Certification in SQL
+                            <li><span>2023</span><br><i class="fa-solid fa-certificate"></i> Certification in SQL</li>
+                            <li><span>2021</span><br><i class="fa-solid fa-certificate"></i> Certification in Photoshop
                             </li>
-                            <li><span>2021</span> <br><i class="fa-solid fa-certificate"></i> Certification in
-                                Photoshop</li>
                             <li><span>2021</span><br><i class="fa-solid fa-certificate"></i> Certification in Life
                                 Skills</li>
-                            <li><span>2017</span><br><i class="fa-solid fa-certificate"></i> Certification in CCC
-                            </li>
+                            <li><span>2017</span><br><i class="fa-solid fa-certificate"></i> Certification in CCC</li>
                         </ul>
                     </div>
-
-
                 </div>
-
             </div>
         </div>
-
     </section>
+
 
 
     <!-- --------------------------------------------------Portfolio-------------------------------------- -->
@@ -161,37 +147,62 @@
                         <img src="/images/work img 1.png">
                         <div class="layer">
                             <h3>E-commers website</h3>
-                            <p>t's a comprehensive online platform where users can purchase a wide variety of products,
-                                from
-                                electronics and clothing to books and groceries.</p>
-                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <p>It's a comprehensive online platform where users can purchase a wide variety of products.
+                            </p>
+                            <div>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
                         </div>
                     </div>
                     <div class="work">
                         <img src="/images/work img2.png">
                         <div class="layer">
                             <h3>Performance Monitoring System</h3>
-                            <p>Monitor your system performance with automated tools. Gain performance monitoring in real
-                                time and with customized alerts and reports.</p>
-                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <p>Monitor your system performance with automated tools in real time with custom alerts.</p>
+                            <div>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
                         </div>
                     </div>
                     <div class="work">
                         <img src="/images/work img 3.jpg">
                         <div class="layer">
                             <h3>Mobile App</h3>
-                            <p>A mobile game is a video game that is typically played on a mobile phone. The term also
-                                refers to all games that are played on any portable device.</p>
-                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <p>A mobile game played on any portable device, providing interactive fun on the go.</p>
+                            <div>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
                         </div>
                     </div>
-
+                    <!-- extra divs -->
+                    <div class="work extra">
+                        <img src="./images/work4.jpg">
+                        <div class="layer">
+                            <h3>Personal Website</h3>
+                            <p>A personal websites showcasing projects, skills, and experiences for job applications.
+                            </p>
+                            <div>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work extra">
+                        <img src="./images/work 5.png">
+                        <div class="layer">
+                            <h3>Blog</h3>
+                            <p>Creating a beautiful blog that fits your style</p>
+                            <div>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <a href="#" class="btn">See More</a>
+                <a href="#" class="btn" id="seeMoreBtn">See More</a>
             </div>
         </div>
     </section>
-    <!-------------------------------------- Services-------------------------- -->
+
+    <!------------------------------------- Services-------------------------- -->
 
     <section>
         <div id="services">
@@ -203,13 +214,11 @@
                         <h2>Web Design</h2>
                         <p>Designing and implementing the website which includes the analysis, design, development and
                             maintenance.</p>
-                        <a href="#">Learn more</a>
                     </div>
                     <div>
                         <i class="fa-solid fa-mobile-screen-button"></i>
                         <h2>App Development</h2>
                         <p>Creating software applications for mobile devices like smartphones and tablets.</p>
-                        <a href="#">Learn more</a>
                     </div>
                     <div>
                         <i class="fa-solid fa-image"></i>
@@ -217,7 +226,6 @@
                         <p>Editing or retouching images using Adobe Photoshop to create high-quality images for
                             websites,
                             social media, blogs, or personal use.</p>
-                        <a href="#">Learn more</a>
                     </div>
                     <div>
                         <i class="fa-solid fa-image"></i>
@@ -225,13 +233,12 @@
                         <p>As a front-end developer creates websites and applications using web languages such as HTML,
                             CSS,
                             and JavaScript.</p>
-                        <a href="#">Learn more</a>
                     </div>
                 </div>
             </div>
-        </div>
 
     </section>
+
 
     <!-- ----------------Contact ------------------------------->
     <section>
@@ -240,8 +247,10 @@
                 <div class="row">
                     <div class="contact">
                         <h1 class="sub-title1">Contact Me</h1>
-                        <P><i class="fa-solid fa-envelope"></i>sanjivanisd01@gmail.com</P>
-                        <p><i class="fa-brands fa-square-whatsapp"></i>+91 9326952947</p>
+                        <P><a href="https://mail.google.com/mail"><i
+                                    class="fa-solid fa-envelope"></i></a>sanjivanisd01@gmail.com</P>
+                        <p><a href="https://web.whatsapp.com/"><i class="fa-brands fa-square-whatsapp"></i></a>+91
+                            9326952947</p>
                         <div class="social-icon">
                             <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
                             <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
@@ -263,19 +272,19 @@
         </div>
     </section>
     <!-- ------------------------------Copyright------------------- -->
-    <section>
-        <footer class="footer">
-            <div class="copyright">
-                <p> <i class="fa-regular fa-copyright"></i>2024 copyright by @Sanivani.</p>
-            </div>
-            <!-- tip icon -->
-            <div class="top-icon">
-                <a href="#"><i class="fa-solid fa-angle-up"></i></a>
-            </div>
-        </footer>
-    </section>
+
+    <footer class="footer">
+        <div class="copyright">
+            <p> <i class="fa-regular fa-copyright"></i>2024 copyright by @Sanivani.</p>
+        </div>
+        <!-- tip icon -->
+        <div class="top-icon">
+            <a href="#"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
     <!--------------------------------------javascript file----------------------------->
-    <!-- <script src="project.js"></script>  -->
+
 
     <script>
         var tablinks = document.getElementsByClassName("tab-links");
@@ -312,6 +321,45 @@
             backDelay: 1000,
             loop: true
         });
+    </script>
+    <!-- certificate and skills button function -->
+    <script>
+        const toggleButton = document.getElementById('toggleButton');
+        const skillsTab = document.getElementById('skills');
+        const certificationTab = document.getElementById('certification');
+
+        let showSkills = true;
+
+        toggleButton.addEventListener('click', function () {
+            if (showSkills) {
+                skillsTab.style.display = 'none';
+                certificationTab.style.display = 'block';
+                toggleButton.textContent = 'Show Skills';
+            } else {
+                certificationTab.style.display = 'none';
+                skillsTab.style.display = 'block';
+                toggleButton.textContent = 'Show Certifications';
+            }
+            showSkills = !showSkills;
+        });
+
+    </script>
+    <!-- work section extrea hide divs -->
+    <script>
+        document.getElementById('seeMoreBtn').addEventListener('click', function (e) {
+            e.preventDefault();
+            let extraWorks = document.querySelectorAll('.extra');
+            extraWorks.forEach(function (work) {
+                if (work.style.display === 'block') {
+                    work.style.display = 'none';
+                    document.getElementById('seeMoreBtn').textContent = 'See More';
+                } else {
+                    work.style.display = 'block';
+                    document.getElementById('seeMoreBtn').textContent = 'See Less';
+                }
+            });
+        });
+
     </script>
 
 </body>
