@@ -776,7 +776,7 @@ nav .fa-solid {
     }
 
     nav ul li a {
-        color: #AD49E1;
+        color: #fefbff;
     }
 
     nav ul li {
@@ -791,6 +791,6 @@ nav .fa-solid {
         cursor: pointer;
     }
     nav ul i{
-        color: #AD49E1;
+        color: #fefbff;
     }
 }
